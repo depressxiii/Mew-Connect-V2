@@ -6,7 +6,7 @@ import serverbackend
 # Fonction qui sera appelée lorsque le bouton est cliqué
 def bouton_clique():
     print("Le serveur est sur écoute... Patientez un moment")
-    server.receive()  # Vous devez ajouter le code pour la fonction server.receive() ici
+    serverbackend.receive()  # Vous devez ajouter le code pour la fonction server.receive() ici
 
 # Créer une fenêtre
 fenetre = tk.Tk()
